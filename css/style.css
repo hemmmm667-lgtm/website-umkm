@@ -235,8 +235,7 @@ img {
     margin: 0;
 }
 
-button,
-.btn {
+button,.btn {
     padding: 13px 28px;
     color: var(--ink);
     font-weight: 700;
@@ -818,10 +817,7 @@ legend {
     border-top: 1px solid var(--line);
 }
 
-.side-item:first-child {
-    border-top: none;
-    padding-top: 0;
-}
+.c
 
 .side-item dt {
     font-size: 0.82rem;
@@ -903,7 +899,10 @@ nav ul li a.active {
 img { max-width: 100%; height: auto; }
 a { color: var(--color-primary); }
 a:hover { color: var(--color-primary-strong); }
-:focus-visible { outline: 3px solid var(--color-focus); outline-offset: 3px; }
+
+:focus-visible { outline: 3px solid var(--color-focus); 
+    outline-offset: 3px;
+ }
 
 .skip-link {
   position: absolute;
