@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Produk Coffee ira - Website UMKM</title>
     <link rel="stylesheet" href="css/style.css" />
+
+     <script src="js/app.js" defer></script>
 </head>
 
 <body>
@@ -43,8 +45,7 @@
 
         <section class="section" aria-labelledby="kategori-title">
             <div class="section-head">
-                <h2 id="ka
-                tegori-title">Kategori Produk</h2>
+                <h2 id="kategori-title">Kategori Produk</h2>
             </div>
             <ul class="category-list">
                 <li>Paket Dine In — pesan, duduk, dan nikmati kopi favoritmu</li>
@@ -57,6 +58,16 @@
                 <h2 id="semua-produk-title">Semua Produk</h2>
                 <p>Empat racikan yang bisa kamu pesan langsung di kedai.</p>
             </div>
+
+        <section class="section" aria-labelledby="produk-dinamis-title">
+  <div class="section-header">
+    <p class="eyebrow">Data JavaScript</p>
+    <h2 id="produk-dinamis-title">Produk dari Data Lokal</h2>
+    <p id="produk-ringkasan">Data produk akan dimuat melalui JavaScript.</p>
+  </div>
+  <div id="produk-dinamis" class="js-product-grid"></div>
+</section>
+
             <div class="products">
                 <figure class="product-card">
                     <img src="assets/images/kopi_Cappucino.jpg" alt="Kopi Coffee ira Cappucino disajikan dalam gelas"
